@@ -1,0 +1,18 @@
+<dependencies>
+  <compile
+      roots="C:\Quids\Mechanism3D\Mechanism3D\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
+    <dependency
+        name="C:\Quids\Mechanism3D\Mechanism3D\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="C:\Quids\Mechanism3D\Mechanism3D\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:C:\Quids\Mechanism3D\Mechanism3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:NativeCamera:@aar">
+    <dependency
+        name="C:\Quids\Mechanism3D\Mechanism3D\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:C:\Quids\Mechanism3D\Mechanism3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name=":NativeCamera:@aar"/>
+  </package>
+</dependencies>

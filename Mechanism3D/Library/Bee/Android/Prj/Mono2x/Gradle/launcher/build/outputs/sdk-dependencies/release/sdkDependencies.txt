@@ -1,0 +1,31 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "NativeCamera"
+  }
+  digests {
+    sha256: "\235\253S8\313\337v7\017\021\343\334\021{\373o\317G\032\001\352\274o\212_\2759\027\222&\334\355"
+  }
+}
+library {
+  digests {
+    sha256: "\030<\304\226\337Q:\202\375\203\272\215\3744\310\205\006\324\033\237\005\"\234i\033\303\334n~r\020\253"
+  }
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 0
+  dependency_index: 1
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}
